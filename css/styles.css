@@ -1,3 +1,7 @@
+html,body{
+    overflow-x: hidden;
+}
+
 body {
 	font-size: 16px;
 	background-color: #61122f;
@@ -16,23 +20,68 @@ body {
 	width: 150px;
 	height: 150px;
 	margin: 10px 10px 10px 10px;
+	padding: 0px 15px 0px 15px;
 }	
 
 #company-name {
-	padding: 30px 0px 0px 20px;
-	color: #000;
+	padding: 30px 0px 0px 10px;
+	color: #557c55;
 	font-weight: bold;
 	text-decoration: none;
-	font-family: 'Lora', serif;
-}
-
-#company-name > a {
-	text-shadow: 2px 2px 2px black;
 	text-transform: uppercase;
-	color: #557c3e;
+	font-family: 'Lora', serif;
+	text-shadow: 1px 1px 1px black;
 }
 
-#company-name > a:hover {
-		text-shadow: 2px 2px 2px black;
-		text-decoration: none;
+.jumbotron {
+	margin: 0px 0px 0px 0px;
+	border-radius: 0px;
+	background: burlywood;
+}
+
+.bg-light {
+	background:  #f6b319;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #61122f;
+	font-family: 'Lora', serif;	
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #61122f;
+	text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:active{
+	color:#61122f;
+	text-decoration: none;
+}
+
+.container {
+	padding:0px;
+}
+
+section {
+	margin: 20px 0px 0px 0px;
+}
+
+.section h2{
+	margin:0px 0px 10px 0px;
+}
+
+.card {
+	background: #f6b319;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media(max-width:660px){
+	.card{
+		background: #f6b319;
+		margin-left: 30px;
+		margin-right: 30px;
+		margin-top: 10px;
+		margin-top:10px;
+	}
 }
